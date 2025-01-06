@@ -59,18 +59,28 @@ public class Main {
             System.out.println("Вагон заполнен полностью");
         }
 
-                System.out.println("Task 7");
-                int one = 25;
-                int two = 26;
-                int three = 10;
-                if (one > two && one < three) {
-                    System.out.println("Число one больше числа two");
-                } else {
-                    System.out.println(" число one ,больше всех ");
-                }
-
-            }
+        System.out.println("Task 7");
+        int one = 25;
+        int two = 26;
+        int three = 10;
+        if (one > two && one > three) {
+            System.out.println(" Число one больше  чисел two и three");
         }
+        if (two > one && two > three) {
+            System.out.println("Число two больше  чисел one  и three");
+        }
+        if (three > one && three > two) {
+            System.out.println("Число three больше чисел  one и  two");
+        } else {
+            System.out.println("Число one больше всех чисел");
+        }
+
+    }
+
+
+}
+
+
 
 
 
